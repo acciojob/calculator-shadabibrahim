@@ -8,6 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form name="forms">
+		<input type="text" name="answer"><br><br>
+		<input type="button" value="C" id="clr" onclick="forms.answer.value = '' ">
+		<input type="button" value="/" id="divide" onclick="forms.answer.value += '/' ">
+		<input type="button" value="*" id="multiply" onclick="forms.answer.value += '*' ">
+		<input type="button" value='<>'> <br><br>
+		<input type="button" value="7" id="block7" onclick="forms.answer.value += '7' ">
+		<input type="button" value="8" id="block8" onclick="forms.answer.value += '8' ">
+		<input type="button" value="9" id="block9" onclick="form.answer.value += '9' ">
+		<input type="button" value="-" id="minus" onclick="forms.answer.value += '-'"><br><br>
+		<input type="button" value="4" id="block4" onclick="forms.answer.value += '4'">
+		<input type="button" value="5" id="block5" onclick="forms.answer.value += '5'">
+		<input type="button" value="6" id="block6" onclick="forms.answer.value += '6'">
+		<input type="button" value="+" id="plus" onclick="forms.answer.value += '+' "><br><br>
+		<input type="button" value="1" id="block1" onclick="forms.answer.value += '1'">
+		<input type="button" value="2" id="block2" onclick="forms.answer.value += '2'">
+		<input type="button" value="3" id="block3" onclick="forms.answer.value += '3'">
+		<input type="button" value="." id="dot" onclick="forms.answer.value += '.' "><br><br>
+		<input type="button" value="(" id="" onclick="forms.answer.value += '(' ">
+		<input type="button" value="0" id="multiply" onclick="forms.answer.value += '0' ">
+		<input type="button" value=")" id="" onclick="forms.answer.value += ')' ">
+		<input type="button" value="=" id="ans" onclick="forms.answer.value = eval(forms.answer.value)">
     <script type="text/javascript" src="./script.js">
 </script>
 
